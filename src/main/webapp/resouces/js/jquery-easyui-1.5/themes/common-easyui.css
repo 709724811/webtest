@@ -1,0 +1,316 @@
+
+.tabswper {
+    padding-left: 0;
+    margin: 6px 0;
+}
+
+.tabswper li {
+    padding: 0;
+    margin: 0;
+}
+
+
+.tabswper li {
+    list-style: none;
+    float: left;
+    min-width: 260px;
+    margin: 1px 0;
+}
+
+.intab {
+    border: 1px solid #95B8E7;
+    height: 24px;
+    border-radius: 4px;
+}
+.tabswper li .textbox {
+    height: 20px !important;
+    width: 171px !important;
+}
+
+.tabswper li label {
+    padding-right: 0;
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+}
+
+.tabswper li input {
+    border: 1px solid #95B8E7;
+    /*height: 20px;*/
+    border-radius: 4px;
+    padding: 3px 0;
+}
+
+.search {
+    border: 1px solid #95B8E7;
+    width: 100px;
+    border-radius: 5px;
+    background: #2fa4e7;
+    margin-left: 88px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    margin-left: 88px;
+}
+
+.showTable {
+    font-size: 12px;
+    border-right: 1px solid #95B8E7;
+    border-top: 1px solid #95B8E7;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.table td {
+    border-left: 1px solid #95B8E7;
+    border-bottom: 1px solid #95B8E7;
+    height: 30px;
+    line-height: 30px;
+
+    text-indent: 10px;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.tabhd {
+    width: 140px;
+    font-weight: bold;
+}
+
+.tabinfo {
+    width: 330px;
+}
+
+.tabhead {
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-align: left;
+    background-color: #E0ECFF;
+}
+
+/** 表单表格样式 newtab **/
+.newtab {
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.newtab th {
+    /*width: 80px;*/
+    text-align: right;
+    padding-right: 10px;
+    font-weight: inherit;
+}
+
+.newtab th, .newtab td {
+    height: 40px;
+    /*line-height: 40px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.newtab td {text-align: left;}
+
+.newtab input {
+    height: 24px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.newtab textarea {
+    margin: 15px 0;
+    height: 100px;
+    padding: 2px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newtab .textbox {
+    width: 171px !important;
+    height: 28px !important;
+}
+
+
+.newtab tfoot td {
+    width: 100px;
+}
+
+.newtab .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.newtab .btn-add {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.newtab .btn-add:hover {
+    color: #fff;
+    background-color: #3f983f;
+    border-color: #3e963e;
+}
+.newtab .btn-cancel {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.newtab .btn-cancel:hover {
+    color: #fff;
+    background-color: #bf4643;
+    border-color: #bf3531;
+}
+.newtab .btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.newtab .btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+.newtab .btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.newtab .btn-info:hover {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+
+
+
+/*=========修改==========*/
+.tabBox1 {border: 1px solid #ddd;background: #fff;border-radius: 4px;font-size: 14px;}
+.tabBox1 > tbody > tr > th {text-align: right;}
+.tabBox1 > tbody > tr > td {text-align: left; color: #666;}
+.tabBox1 > tbody > tr > th,.tabBox1 > tbody > tr > td {
+    padding: 8px;
+    /*line-height: 2;*/
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.tabBox1 > tbody > tr:first-child > th,.tabBox1 > tbody > tr:first-child > td {
+    border-top: none;
+}
+.tabBox1 input {
+    height: 24px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.tabBox1 textarea {
+    height: 100px;
+    padding: 2px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.btn-add {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.btn-add:hover {
+    color: #fff;
+    background-color: #3f983f;
+    border-color: #3e963e;
+}
+.btn-cancel {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn-cancel:hover {
+    color: #fff;
+    background-color: #bf4643;
+    border-color: #bf3531;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+
+
+ul,ol,li {list-style: none;margin: 0;padding: 0;}
+.clearfix:after {content: "\200B";display: block;height: 0;overflow: visiblity;clear: both;}
+.clearfix {*zoom: 1;}
+
+.tabUl {max-width: 1086px; font-size: 14px;border: 1px solid #ddd; color: #666;}
+.tabUl li {float: left;border-bottom: 1px solid #ddd;}
+.tabUl li label {float: left;min-width: 120px; width: 120px;padding: 10px;border-right: 1px solid #ddd;}
+.tabUl li .val {float: left;min-width: 100px; width: 200px;padding: 10px;text-align: left;border-right: 1px solid #ddd;}

@@ -1,0 +1,66 @@
+.heder-box{
+    height:45px;
+    background-image: -webkit-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-image: -o-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    color: #fff;
+    padding: 0 20px;
+}
+.panel-header{
+    height: 24px;
+}
+.panel-title{
+    color: #157ab5;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 2em;
+
+}
+.accordion .accordion-header-selected{
+    background-color: #2fa4e7;
+}
+.accordion .accordion-header-selected .panel-title{
+    color: #fff;
+}
+
+.tab-cl{}
+.tab-cl li{
+    list-style: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tab-cl li a{
+    display: block;
+    text-decoration:none;
+    color: #157ab5;
+    padding:6px 10px;
+    text-indent: 2em;
+}
+.tab-cl li a:hover{
+    background-color:#E3E4E6;
+}
+
+.a-cl{background-color: #e0e0e0;}
+
+.north-title{
+    padding-top: 8px;
+    float: left;
+    font-size: 24px
+}
+
+.north-name{
+    padding-top: 15px;
+    padding-right: 20px;
+    float: right;
+    color: #fff;
+}
+
+.north-a{color: #fff;}
+
+.west-title{width:200px;}
+
+.center-tabs{padding: 5px}
+
+.south-div{height: 30px}
+
+.south-info{text-align: center; padding-top: 5px}

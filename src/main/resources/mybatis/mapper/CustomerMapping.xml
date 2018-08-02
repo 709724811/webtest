@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qgz.test.model.dao.CustomerDao">
+	
+	<resultMap id="customerInfo" type="com.qgz.test.model.entity.Customer">
+		<id column="id" property="id" jdbcType="NUMERIC"/>
+		<result column="system_type" property="systemType" />
+		<result column="member_no" property="memberNo" />
+		<result column="login_name" property="loginName" />	
+		<result column="login_pwd" property="loginPwd" />
+		<result column="mobile" property="mobile" />
+		<result column="member_name" property="memberName" />
+		<result column="gender" property="gender" />
+		<result column="status" property="status" />
+		<result column="face_flag" property="faceFlag" />
+		<result column="name_auth_flag" property="nameAuthFlag" />
+		<result column="cert_type" property="certType" />	
+		<result column="cert_no" property="certNo" />
+		<result column="birthday" property="birthday" />
+		<result column="member_level" property="memberLevel" jdbcType="NUMERIC"/>
+		<result column="email" property="email" />
+		<result column="enc_type" property="encType" />		
+		<result column="create_date" property="createDate" />
+		<result column="update_date" property="updateDate" />
+		<result column="version" property="version" jdbcType="NUMERIC"/>
+	</resultMap>
+
+	
+	<sql id="selFrag">
+		select id, login_name, member_no, system_type, member_name, mobile, login_pwd, gender, status, email, member_level, face_flag, name_auth_flag, 
+			cert_type, cert_no, birthday, create_date ,enc_type
+		from t_customer 
+	</sql>
+	
+	<select id="queryCustomerList" resultMap="customerInfo">
+		<include refid="selFrag"/>
+		limit #{number}
+	</select>
+</mapper>

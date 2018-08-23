@@ -1,4 +1,4 @@
-package com.qgz.test.controller;
+package com.webtest.test.controller;
 
 import com.alibaba.fastjson.JSONObject;
 

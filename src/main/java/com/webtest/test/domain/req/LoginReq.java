@@ -1,6 +1,6 @@
-package com.qgz.test.domain.req;
+package com.webtest.test.domain.req;
 
-import com.qgz.test.domain.BaseReq;
+import com.webtest.test.domain.BaseReq;
 
 /**
  * @author lanruiyao

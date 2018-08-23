@@ -1,7 +1,7 @@
-package com.qgz.test.controller;
+package com.webtest.test.controller;
 
-import com.qgz.test.common.constants.SystemConstants;
-import com.qgz.test.model.entity.User;
+import com.webtest.test.common.constants.SystemConstants;
+import com.webtest.test.model.entity.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

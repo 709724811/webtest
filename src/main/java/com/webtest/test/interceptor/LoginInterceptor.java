@@ -1,7 +1,7 @@
-package com.qgz.test.interceptor;
+package com.webtest.test.interceptor;
 
 import com.alibaba.druid.util.StringUtils;
-import com.qgz.test.common.constants.SystemConstants;
+import com.webtest.test.common.constants.SystemConstants;
 import org.apache.commons.lang.ArrayUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

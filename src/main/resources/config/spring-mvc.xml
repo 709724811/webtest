@@ -39,7 +39,7 @@
 	<mvc:interceptors>
 		<mvc:interceptor>
 			<mvc:mapping path="/**/*.do" />
-			<bean class="com.qgz.test.interceptor.LoginInterceptor" />
+			<bean class="com.webtest.test.interceptor.LoginInterceptor" />
 		</mvc:interceptor>
 	</mvc:interceptors>
 

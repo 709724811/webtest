@@ -1,6 +1,6 @@
-package com.qgz.test.model.dao;
+package com.webtest.test.model.dao;
 
-import com.qgz.test.model.entity.Customer;
+import com.webtest.test.model.entity.Customer;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

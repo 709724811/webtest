@@ -1,4 +1,4 @@
-package com.qgz.test.common.constants;
+package com.webtest.test.common.constants;
 
 /**
  * @author lanruiyao

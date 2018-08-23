@@ -1,8 +1,8 @@
-package com.qgz.test.controller;
+package com.webtest.test.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.qgz.test.model.entity.Customer;
-import com.qgz.test.model.dao.CustomerDao;
+import com.webtest.test.model.entity.Customer;
+import com.webtest.test.model.dao.CustomerDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

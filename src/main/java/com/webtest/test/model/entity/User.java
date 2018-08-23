@@ -1,4 +1,4 @@
-package com.qgz.test.model.entity;
+package com.webtest.test.model.entity;
 
 import java.io.Serializable;
 import java.util.Date;

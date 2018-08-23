@@ -1,6 +1,6 @@
-package com.qgz.test.model.entity;
+package com.webtest.test.model.entity;
 
-import com.qgz.test.utils.AesEncript;
+import com.webtest.test.utils.AesEncript;
 import org.apache.commons.lang.StringUtils;
 
 import java.io.Serializable;

@@ -1,4 +1,4 @@
-package com.qgz.test.domain;
+package com.webtest.test.domain;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;

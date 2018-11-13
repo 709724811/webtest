@@ -12,11 +12,9 @@ import javax.crypto.spec.SecretKeySpec;
  *
  * @类描述：
  *
- * @创建人：颜彩云
  *
  * @创建时间：2017年9月6日
  *
- * @版权：Copyright (c) 深圳市牛鼎丰科技有限公司-版权所有.
  *
  */
 

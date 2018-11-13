@@ -3,7 +3,6 @@ package com.webtest.test.common.constants;
 /**
  * @author lanruiyao
  * @date 2018/8/1
- * @copyright www.qguanzi.com Inc. All rights reserved.
  * @since v5.0
  */
 public class SystemConstants {

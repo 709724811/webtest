@@ -2,8 +2,6 @@
          import="com.alibaba.fastjson.JSON"
          pageEncoding="UTF-8" %>
 <%@ page import="com.alibaba.fastjson.JSONObject" %>
-<%@ page import="com.baidu.ueditor.ActionEnter" %>
-<%@ page import="com.xiaoniuapp.oms.admin.common.aliyun.OSSService" %>
 <%@ page import="org.springframework.web.context.ContextLoaderListener" %>
 <%@ page import="java.io.File" %>
 <%@ page import="java.io.FileInputStream" %>

@@ -23,8 +23,6 @@
 	<logger name="org.springframework" level="WARN" />
 	<logger name="com.alibaba.dubbo" level="WARN" />
 	<logger name="org.apache.zookeeper" level="INFO" />
-	<logger name="com.qguanzi" level="INFO"/>
-	<logger name="com.xiaoniuapp.accountcenter" level="INFO"/>
 
 	<root level="INFO">
 		<appender-ref ref="file" />

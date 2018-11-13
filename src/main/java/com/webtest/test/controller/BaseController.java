@@ -5,10 +5,8 @@ import com.alibaba.fastjson.JSONObject;
 import java.util.List;
 
 /**
- * @author liumin
  * @Description
  * @date 2017/5/9
- * @copyright www.qguanzi.com Inc. All rights reserved.
  */
 public class BaseController<T> {
 

@@ -5,7 +5,6 @@ import com.webtest.test.domain.BaseReq;
 /**
  * @author lanruiyao
  * @date 2018/7/31
- * @copyright www.qguanzi.com Inc. All rights reserved.
  * @since v5.0
  */
 public class LoginReq extends BaseReq {

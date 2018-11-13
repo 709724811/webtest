@@ -16,7 +16,6 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * @author lanruiyao
  * @date 2018/7/31
- * @copyright www.qguanzi.com Inc. All rights reserved.
  * @since v5.0
  */
 public class LoginInterceptor extends HandlerInterceptorAdapter {

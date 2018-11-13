@@ -80,7 +80,7 @@ function apiGetProtocol(appVersion, source, token, userId, productId) {
 		//alert(e.msg);
 	};
 	
-	ajax("https://m.xiaoniuapp.com/api/product/getProtocol", options, this);
+	ajax("https://m.webtest.com/api/product/getProtocol", options, this);
 }
 
 /*
@@ -176,9 +176,7 @@ String.prototype.replaceAll = function(s1,s2){
 }
 
 function getHost() {
-	//return "https://www.qguanzi.com"; //http://10.10.16.225:9018"; //window.location.origin;
-	//return http://admin.xiaoniuapp.com/admin/protocol/dict/findAll.jsonp
-	return "http://admin.xiaoniuapp.com/admin";
+	return "http://admin.webtest.com/admin";
 }
 
 function jsonp(url, options, context) {
@@ -221,5 +219,5 @@ function findAllProtocolDict() {
 		//alert(e.msg);
 	};
 	
-	jsonp("http://admin.xiaoniuapp.com/admin/protocol/dict/findAll.jsonp", options, this);
+	jsonp("http://admin.webtest.com/admin/protocol/dict/findAll.jsonp", options, this);
 }

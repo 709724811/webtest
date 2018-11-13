@@ -14,7 +14,6 @@ import java.util.List;
 /**
  * @author lanruiyao
  * @date 2018/8/1
- * @copyright www.qguanzi.com Inc. All rights reserved.
  * @since v5.0
  */
 @Controller

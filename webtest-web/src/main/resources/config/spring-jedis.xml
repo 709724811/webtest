@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
+        <constructor-arg index="0">
+            <set>
+                <bean class="redis.clients.jedis.HostAndPort" factory-method="parseString">
+                    <constructor-arg name="from" value="${redis.cluster.node1}" />
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort" factory-method="parseString">
+                    <constructor-arg name="from" value="${redis.cluster.node2}" />
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort" factory-method="parseString">
+                    <constructor-arg name="from" value="${redis.cluster.node3}" />
+                </bean>
+            </set>
+        </constructor-arg>
+        <constructor-arg index="1" value="${redis.cluster.timeout}" />
+        <constructor-arg index="2" value="${redis.cluster.maxAttempts}" />
+        <constructor-arg index="3" ref="jedisPoolConfig" />
+    </bean>
+
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxTotal" value="${jedis.pool.maxTotal}" />
+        <property name="maxIdle" value="${jedis.pool.maxIdle}" />
+        <property name="minIdle" value="${jedis.pool.minIdle}" />
+        <property name="maxWaitMillis" value="${jedis.pool.maxWaitMillis}" />
+        <property name="timeBetweenEvictionRunsMillis" value="600000" />
+    </bean>
+
+</beans>
